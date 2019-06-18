@@ -1,0 +1,182 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rebeccapurple;
+  color: #071723;
+}
+
+.box {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 10px 22px 34px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  overflow: hidden;
+  width: 550px;
+}
+
+.space {
+  margin-bottom: 16px;
+}
+
+.space-md {
+  margin-bottom: 32px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header {
+  background: url(images/header.png) center right no-repeat;
+  background-size: cover;
+  height: 187px;
+  padding: 23px 36px;
+  width: 100%;
+}
+
+.header .title {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.textArea {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 8px;
+  color: #071723;
+  height: 140px;
+  padding: 16px;
+  resize: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.fieldset {
+  padding: 0 32px;
+}
+
+.counter .counterSvg {
+  fill: #2f3676;
+}
+
+.counter .counterSvg:hover{
+  fill: #191847;
+  cursor: pointer;
+}
+
+.counter .counterSvgZero {
+  fill: #C5CFD6;
+}
+
+.counter .counterSvgZero:hover{
+  cursor: pointer;
+}
+
+.counter input {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 8px;
+  width: 90px;
+}
+
+footer {
+  padding: 32px;
+  background: #dde3e9;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.send button {
+  appearance: none;
+  background: #2f3676;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 32px;
+}
+
+.send button:hover {
+  border: 2px solid #2f3676;
+  background: #191847;
+  cursor: pointer;
+  padding: 6px 30px;
+}
+
+.send .disableSend{
+  background: #C5CFD6;
+}
+
+.send .disableSend:hover{
+  background: #C5CFD6;
+  border: none ;
+  cursor: default;
+  padding: 8px 32px;
+}
+
+
+.stickers input:hover{
+  background-color: #191847; 
+  cursor: pointer;
+}
+
+.imgUnChecked{
+  background: #2F3676;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.imgUnChecked:hover{ 
+  background: #1C1C1C;
+  cursor: pointer;
+}
+
+.imgChecked{
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  position: relative;
+  background: url(images/checked.png) center;
+}
+
+.imgChecked:hover{
+  cursor: pointer;
+}
+
+.sucessText{
+  font-family: Inter;
+  font-size: 18px;
+  color: #00C57C;
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+.error{
+  display: none;
+}
